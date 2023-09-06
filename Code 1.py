@@ -9,7 +9,7 @@ population = int(input("population: "))
 existingcases = int(input("existing cases: "))
 prevalence = existingcases / population
 print(prevalence)
-print(prevalence * 10000)
+print(prevalence * 100000)
 
 
 # In[16]:
@@ -49,9 +49,6 @@ print(lifeexpectancy - ages[1])
 lifelost = [13, 3]
 yppl = sum(lifelost) / len(lifelost)
 print(yppl)
-
-
-# In[ ]:
 
 
 
